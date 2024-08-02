@@ -1,6 +1,6 @@
 import { Hex, getAddress } from 'viem'
 import { PairV2 } from './pair'
-import { Token } from '@traderjoe-xyz/sdk-core'
+import { Token } from '@sovryn/joe-core'
 
 /** Class representing a trade route. */
 export class RouteV2 {

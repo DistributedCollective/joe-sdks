@@ -12,7 +12,7 @@ import {
   sqrt,
   parseBigintIsh,
   Token
-} from '@traderjoe-xyz/sdk-core'
+} from '@sovryn/joe-core'
 import invariant from 'tiny-invariant'
 import JSBI from 'jsbi'
 import {

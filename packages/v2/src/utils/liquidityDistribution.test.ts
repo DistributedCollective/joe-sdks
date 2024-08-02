@@ -4,7 +4,7 @@ import {
   getBidAskDistributionFromBinRange,
   getCurveDistributionFromBinRange
 } from './liquidityDistribution'
-import { CurrencyAmount, Token, TokenAmount } from '@traderjoe-xyz/sdk-core'
+import { CurrencyAmount, Token, TokenAmount } from '@sovryn/joe-core'
 import { parseEther } from 'viem'
 
 const token0 = new Token(

@@ -1,4 +1,4 @@
-# @traderjoe-xyz/sdk-v2
+# @sovryn/joe-sdk-v2
 
 ## 3.0.11
 
@@ -12,7 +12,7 @@
 
 - 76fb1d0: fix vite
 - Updated dependencies [76fb1d0]
-  - @traderjoe-xyz/sdk-core@2.0.2
+  - @sovryn/joe-core@2.0.2
 
 ## 3.0.9
 
@@ -68,7 +68,7 @@
 
 - 6e905b7: bump viem to v2
 - Updated dependencies [6e905b7]
-  - @traderjoe-xyz/sdk-core@2.0.1
+  - @sovryn/joe-core@2.0.1
 
 ## 3.0.0
 
@@ -79,7 +79,7 @@
 ### Patch Changes
 
 - Updated dependencies [9ab3159]
-  - @traderjoe-xyz/sdk-core@2.0.0
+  - @sovryn/joe-core@2.0.0
 
 ## 2.1.8
 
@@ -138,7 +138,7 @@
 ### Patch Changes
 
 - Updated dependencies [8065d41]
-  - @traderjoe-xyz/sdk-core@1.1.0
+  - @sovryn/joe-core@1.1.0
 
 ## 2.0.12
 
@@ -158,4 +158,4 @@
 
 - 2f2e1c4: Package release from mono-repo
 - Updated dependencies [2f2e1c4]
-  - @traderjoe-xyz/sdk-core@1.0.1
+  - @sovryn/joe-core@1.0.1

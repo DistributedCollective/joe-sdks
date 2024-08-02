@@ -4,7 +4,7 @@ import {
   ChainId,
   TokenAmount,
   CNATIVE
-} from '@traderjoe-xyz/sdk-core'
+} from '@sovryn/joe-core'
 import { Pair, Route } from '../src'
 import { describe, it, expect } from 'vitest'
 

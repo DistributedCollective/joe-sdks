@@ -4,7 +4,7 @@ import {
   Token,
   TokenAmount,
   Percent
-} from '@traderjoe-xyz/sdk-core'
+} from '@sovryn/joe-core'
 import { PairV2 } from './pair'
 import { RouteV2 } from './route'
 import { TradeV2 } from './trade'

@@ -7,7 +7,7 @@ import {
   TokenAmount,
   WAVAX,
   CNATIVE
-} from '@traderjoe-xyz/sdk-core'
+} from '@sovryn/joe-core'
 import { Pair, Route, Router, Trade } from '../src'
 import JSBI from 'jsbi'
 import { describe, it, expect } from 'vitest'

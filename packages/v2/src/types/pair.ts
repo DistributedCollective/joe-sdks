@@ -1,4 +1,4 @@
-import { Percent } from '@traderjoe-xyz/sdk-core'
+import { Percent } from '@sovryn/joe-core'
 import { Hex } from 'viem'
 
 export interface LBPair {

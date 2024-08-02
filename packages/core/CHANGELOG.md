@@ -1,4 +1,4 @@
-# @traderjoe-xyz/sdk-core
+# @sovryn/joe-core
 
 ## 2.0.2
 

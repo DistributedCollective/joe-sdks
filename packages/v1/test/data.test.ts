@@ -1,6 +1,6 @@
 import { Fetcher } from '../src'
 import { describe, it, expect } from 'vitest'
-import { ChainId, WAVAX, Token } from '@traderjoe-xyz/sdk-core'
+import { ChainId, WAVAX, Token } from '@sovryn/joe-core'
 
 // TODO: replace the provider in these tests
 describe.skip('data', () => {

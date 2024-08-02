@@ -1,4 +1,4 @@
-import { ChainId } from '@traderjoe-xyz/sdk-core'
+import { ChainId } from '@sovryn/joe-core'
 
 export const EXCHANGE_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.FUJI]:

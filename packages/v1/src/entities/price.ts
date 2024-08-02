@@ -1,4 +1,4 @@
-import { Price as PriceBase } from '@traderjoe-xyz/sdk-core'
+import { Price as PriceBase } from '@sovryn/joe-core'
 
 import { Route } from './route'
 

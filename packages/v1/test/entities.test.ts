@@ -7,7 +7,7 @@ import {
   Rounding,
   Token,
   TokenAmount
-} from '@traderjoe-xyz/sdk-core'
+} from '@sovryn/joe-core'
 import { describe, it, expect } from 'vitest'
 
 const ADDRESSES = [

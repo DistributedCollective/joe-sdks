@@ -3,9 +3,9 @@
 ## Packages
 
 ```
-npm install @traderjoe-xyz/sdk-core
-npm install @traderjoe-xyz/sdk
-npm install @traderjoe-xyz/sdk-v2
+npm install @sovryn/joe-core
+npm install @sovryn/joe-sdk
+npm install @sovryn/joe-sdk-v2
 ```
 
 ## Develop

@@ -3,7 +3,7 @@ import {
   validateAndParseAddress,
   CurrencyAmount,
   Percent
-} from '@traderjoe-xyz/sdk-core'
+} from '@sovryn/joe-core'
 import invariant from 'tiny-invariant'
 import { Trade } from './entities'
 

@@ -3,7 +3,7 @@ import {
   Token,
   TokenAmount,
   sortedInsert
-} from '@traderjoe-xyz/sdk-core'
+} from '@sovryn/joe-core'
 import { Pair, InsufficientInputAmountError } from '../src'
 import { describe, it, expect } from 'vitest'
 
