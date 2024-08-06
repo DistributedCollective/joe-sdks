@@ -1,5 +1,13 @@
 # @sovryn/joe-sdk-v2
 
+## 3.0.12
+
+### Patch Changes
+
+- 5969902: fix: chain id and factory address
+- Updated dependencies [5969902]
+  - @sovryn/joe-core@2.0.3
+
 ## 3.0.11
 
 ### Patch Changes

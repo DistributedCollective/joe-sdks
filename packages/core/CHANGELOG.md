@@ -1,5 +1,11 @@
 # @sovryn/joe-core
 
+## 2.0.3
+
+### Patch Changes
+
+- 5969902: fix: chain id and factory address
+
 ## 2.0.2
 
 ### Patch Changes
