@@ -1,5 +1,13 @@
 # @sovryn/joe-sdk-v2
 
+## 3.0.13
+
+### Patch Changes
+
+- 77e2deb: chore: add new bob testnet
+- Updated dependencies [77e2deb]
+  - @sovryn/joe-core@2.0.4
+
 ## 3.0.12
 
 ### Patch Changes
