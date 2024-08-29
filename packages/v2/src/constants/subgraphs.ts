@@ -15,7 +15,9 @@ export const DEX_V2_SUBGRAPH: { [chainId in ChainId]: string } = {
     'https://api.thegraph.com/subgraphs/name/traderjoe-xyz/joe-v2-bnbtest',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
-  [ChainId.BOB_TESTNET]: 'http://localhost:8000/subgraphs/name/joe-v2'
+  [ChainId.BOB_TESTNET_LEGACY]: 'http://localhost:8000/subgraphs/name/joe-v2',
+  [ChainId.BOB_TESTNET]:
+    'https://bob-joe-subgraph.sovryn.app/subgraphs/name/joe-v2'
 }
 
 export const DEXCANDLES_SUBGRAPH_V2: { [chainId in ChainId]: string } = {
@@ -34,5 +36,6 @@ export const DEXCANDLES_SUBGRAPH_V2: { [chainId in ChainId]: string } = {
   [ChainId.ETHEREUM]:
     'https://api.thegraph.com/subgraphs/name/traderjoe-xyz/dexcandles-v2-eth',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }

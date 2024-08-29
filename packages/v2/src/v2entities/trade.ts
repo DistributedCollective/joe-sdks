@@ -367,11 +367,13 @@ export class TradeV2 {
       (isNativeOut && tokenAmountIn.token.address === WNATIVE[chainId].address)
 
     if (isWrapSwap) {
+      console.log('wrap swap')
       return []
     }
 
     const amountIn = BigInt(tokenAmountIn.raw.toString())
 
+    console.log('amountIn', amountIn)
     try {
       const useV22 = LB_QUOTER_V22_ADDRESS[chainId] !== zeroAddress
       const quoterAddress = useV22
@@ -389,10 +391,14 @@ export class TradeV2 {
         } as const
       })
 
+      console.log('calls', calls)
+
       const reads = await publicClient.multicall({
         contracts: calls,
         allowFailure: true
       })
+
+      console.log('reads', reads)
 
       const trades = reads.map((read, i) => {
         if (read.status !== 'success') return undefined
@@ -407,11 +413,14 @@ export class TradeV2 {
         )
       })
 
+      console.log('trades', trades)
+
       return trades.filter(
         (trade) =>
           !!trade && JSBI.greaterThan(trade.outputAmount.raw, JSBI.BigInt(0))
       )
     } catch (e) {
+      console.error('Error fetching quotes:', e)
       console.debug('Error fetching quotes:', e)
       return []
     }

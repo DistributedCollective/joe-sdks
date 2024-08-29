@@ -15,7 +15,9 @@ export const EXCHANGE_SUBGRAPH: { [chainId in ChainId]: string } = {
     'https://api.thegraph.com/subgraphs/name/traderjoe-xyz/joe-v1-bnbtest',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
-  [ChainId.BOB_TESTNET]: 'http://localhost:8000/subgraphs/name/joe-v2'
+  [ChainId.BOB_TESTNET_LEGACY]: 'http://localhost:8000/subgraphs/name/joe-v2',
+  [ChainId.BOB_TESTNET]:
+    'https://bob-joe-subgraph.sovryn.app/subgraphs/name/joe-v2'
 }
 
 export const MASTERCHEF_SUBGRAPH: { [chainId in ChainId]: string } = {
@@ -29,6 +31,7 @@ export const MASTERCHEF_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.BNB_TESTNET]: '',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }
 
@@ -43,6 +46,7 @@ export const DEXCANDLES_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.BNB_TESTNET]: '',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }
 
@@ -56,6 +60,7 @@ export const BAR_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.BNB_TESTNET]: '',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }
 
@@ -70,6 +75,7 @@ export const LENDING_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.BNB_TESTNET]: '',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }
 
@@ -84,6 +90,7 @@ export const ROCKET_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.BNB_TESTNET]: '',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }
 
@@ -99,6 +106,7 @@ export const SJOE_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.BNB_TESTNET]: '',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }
 
@@ -113,6 +121,7 @@ export const MONEY_MAKER_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.BNB_TESTNET]: '',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }
 
@@ -127,6 +136,7 @@ export const VEJOE_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.BNB_TESTNET]: '',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }
 
@@ -141,6 +151,7 @@ export const BOOSTED_MASTERCHEF_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.BNB_TESTNET]: '',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }
 
@@ -155,6 +166,7 @@ export const NFT_CONTRACTS_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.BNB_TESTNET]: '',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }
 
@@ -169,6 +181,7 @@ export const JOEPEG_MARKETPLACE_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.BNB_TESTNET]: '',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }
 
@@ -183,5 +196,6 @@ export const FEE_COLLECTOR_SUBGRAPH: { [chainId in ChainId]: string } = {
   [ChainId.BNB_TESTNET]: '',
   [ChainId.ETHEREUM]: '',
   [ChainId.MANTLE]: '',
+  [ChainId.BOB_TESTNET_LEGACY]: '',
   [ChainId.BOB_TESTNET]: ''
 }

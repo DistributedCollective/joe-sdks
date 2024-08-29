@@ -133,6 +133,13 @@ export const WNATIVE = {
     'WMNT',
     'Wrapped Mantle'
   ),
+  [ChainId.BOB_TESTNET_LEGACY]: new Token(
+    ChainId.BOB_TESTNET_LEGACY,
+    '0x4200000000000000000000000000000000000006',
+    18,
+    'WETH',
+    'Wrapped Ether'
+  ),
   [ChainId.BOB_TESTNET]: new Token(
     ChainId.BOB_TESTNET,
     '0x4200000000000000000000000000000000000006',
