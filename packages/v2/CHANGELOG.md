@@ -1,5 +1,11 @@
 # @sovryn/joe-sdk-v2
 
+## 3.0.14
+
+### Patch Changes
+
+- chore: change multicall address
+
 ## 3.0.13
 
 ### Patch Changes
