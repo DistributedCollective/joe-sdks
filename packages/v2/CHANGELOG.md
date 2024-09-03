@@ -1,5 +1,11 @@
 # @sovryn/joe-sdk-v2
 
+## 3.0.15
+
+### Patch Changes
+
+- d841c51: chore: change contract addresses
+
 ## 3.0.14
 
 ### Patch Changes
